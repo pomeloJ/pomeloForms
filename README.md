@@ -23,6 +23,7 @@ we don't say anymore
 ```diff
 - it depends on jQuery
 - it will craw "name" tag data
+- if more than one same "name" tag,it will replace by last
 ```
 
 ```javascript
