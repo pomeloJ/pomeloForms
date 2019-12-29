@@ -46,21 +46,21 @@ it will get
   "note":"memberNote"
 }
 ```
-What's HTML structure
+What's HTML code
 ```HTML
 <div class="formArea">
-  <input type="text" name="userid">
-  <input type="password" name="psw">
+  <input type="text" name="userid" value="memberUserid>
+  <input type="password" name="psw" value="memberPassword">
   <select name="gender">
     <option value="0"></option>
-    <option value="1"></option>
+    <option value="1" selected></option>
   </select>
   <input type="radio" name="age" value="0~18">
-  <input type="radio" name="age" value="19~30">
+  <input type="radio" name="age" value="19~30" checked>
   <input type="radio" name="age" value="31~45">
   <input type="radio" name="age" value="46~60">
   <input type="radio" name="age" value="60+">
-  <textarea name="note"></textarea>
+  <textarea name="note">memberNote</textarea>
 </div>
 ```
 
